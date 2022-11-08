@@ -1,13 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Vimeo from '@u-wave/react-vimeo';
-import H1 from '../components/Fonts/H1';
-import H2 from '../components/Fonts/H2';
-import P from '../components/Fonts/P';
+import H1 from '../components/Fonts/H1/H1';
+import H2 from '../components/Fonts/H2/H2';
+import P from '../components/Fonts/P/P';
 import './home.scss'
-import logo from '../assets/rtl_logo.png'
+import logo from '../assets/rtl_logo.svg'
 import Slider from '../components/Slider/Slider';
+import { Fetcher } from '../helpers/api/Fetcher';
 
 const Home = () => {
+  const [isLoading, setIsLoading] = useState(true)
+  const [data, setData] = useState([])
+
+  useEffect(() => {
+    Fetcher({isLoading, setIsLoading, data, setData})
+  
+  }, [])
+
   return (
     <div>
       <div id='hero'>
@@ -22,7 +31,7 @@ const Home = () => {
       </div>
       <div id='productions'>
         <H2 text='Produkcióink' className='mb-2' />
-        <div class='logos'>
+        <div className='logos'>
             <img src={logo} alt='rtl'/>
             <img src={logo} alt='rtl'/>
             <img src={logo} alt='rtl'/>

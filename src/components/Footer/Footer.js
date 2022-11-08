@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.scss'
-import H4 from '../Fonts/H4'
+import H4 from '../Fonts/H4/H4'
 
 const Footer = () => {
   return (

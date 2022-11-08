@@ -1,9 +1,9 @@
 #productions {
-    margin: 3rem 0;
+    margin: 4rem 0;
 
     .logos {
         display: flex;
-        gap: 4rem;
+        gap: 3.5rem;
         justify-content: center;
     }
 }
@@ -11,7 +11,7 @@
 #hero {
     #hero-text {
         position: absolute;
-        top: 300px;
+        top: 270px;
         z-index: 998;
         left: 50%;
         transform: translate(-50%);
@@ -49,4 +49,8 @@
 
 .mb-2 {
     margin-bottom: 2rem;
+}
+
+.slider {
+    margin-bottom: 3rem;
 }

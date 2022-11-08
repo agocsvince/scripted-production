@@ -7,16 +7,15 @@ import Home from "./pages/Home";
 function App() {
   return (
     <div>
-    <Header />
-    <Routes >
-        <Route exact path="/" element={<Home/>}/>
-        <Route path='/produkciok' />
-        <Route path='/sajat-fejlesztesek' />
-        <Route path='/csapat' />
-        <Route path='/kapcsolat' />
-    </Routes>
-    <Footer />
-
+      <Header />
+      <Routes >
+          <Route exact path="/" element={<Home/>}/>
+          <Route path='/produkciok' element={<Home/>}/>
+          <Route path='/sajat-fejlesztesek' element={<Home/>}/>
+          <Route path='/csapat' element={<Home/>}/>
+          <Route path='/kapcsolat' element={<Home/>}/>
+      </Routes>
+      <Footer />
     </div>
   );
 }

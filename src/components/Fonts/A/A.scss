@@ -1,0 +1,14 @@
+.link {
+    margin-left: 3rem;
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'openSans-SemiBold';
+    font-size: 12px;
+    line-height: 50px;
+}
+
+@font-face {
+    font-family: 'openSans-SemiBold';
+    src: url('../../../assets/OpenSans-SemiBold.ttf');
+}
