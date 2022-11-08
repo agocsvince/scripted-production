@@ -1,0 +1,10 @@
+.footer {
+    line-height: 25px;
+    &.bold {
+        font-family: 'openSans-Bold';
+    }
+}
+@font-face {
+    font-family: 'openSans-Bold';
+    src: url('../../assets/OpenSans-Bold.ttf');
+}

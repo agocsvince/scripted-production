@@ -1,0 +1,30 @@
+.footer {
+
+    #info {
+        background-color: #F7E400;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 4rem;
+
+        #left {
+            text-align: left;
+        }
+
+        #right {
+            text-align: right;
+        }
+    }
+
+    #copyright {
+        line-height: 50px;
+        background-color: #000000;
+        color: #ffffff;
+        font-family: 'openSans-Regular';
+        font-size: 14px;
+    }
+}
+
+@font-face {
+    font-family: 'openSans-Regular';
+    src: url('../../assets/OpenSans-Regular.ttf');
+}

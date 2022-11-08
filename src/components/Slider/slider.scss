@@ -1,0 +1,9 @@
+.swiper {
+    height: 400px;
+
+    .swiper-slide {
+        height: auto !important;
+        background-position: center center !important;
+        background-size: cover !important;
+    }
+}
