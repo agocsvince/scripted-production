@@ -1,9 +1,9 @@
 import React from 'react'
 import './P.scss'
 
-const P = ({text}) => {
+const P = ({text, classes}) => {
   return (
-    <p>{text}</p>
+    <p className={classes}>{text}</p>
   )
 }
 

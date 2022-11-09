@@ -2,6 +2,7 @@
     height: 380px;
 
     .swiper-slide {
+        min-width: 500px !important;
         height: auto !important;
         background-position: center center !important;
         background-size: cover !important;

@@ -10,8 +10,9 @@
 
 #hero {
     #hero-text {
+        
         position: absolute;
-        top: 270px;
+        top: 16rem;
         z-index: 998;
         left: 50%;
         transform: translate(-50%);
@@ -20,6 +21,12 @@
 
         h2 {
             font-size: 20px !important;
+        }
+
+        p {
+            max-width: 100%;
+            width: 100%;
+            width: 900px;
         }
     }
 

@@ -1,18 +1,18 @@
 import React from 'react'
 import './footer.scss'
-import H4 from '../Fonts/H4/H4'
+import H5 from '../Fonts/H5/H5'
 
 const Footer = () => {
   return (
     <div className='footer'>
         <div id='info'>
             <div id='left'>
-                <H4 text='Scripted Productions Kft.' bold={true}/>
-                <H4 text='1061 Budapest, Liszt Ferenc tér 10.' />
+                <H5 text='Scripted Productions Kft.' bold={true}/>
+                <H5 text='1061 Budapest, Liszt Ferenc tér 10.' />
             </div>
             <div id='right'>
-                <H4 text='hello@scriptedprouctions.hu' bold={true}/>
-                <H4 text='+36 30 123 4567' />
+                <H5 text='hello@scriptedprouctions.hu' bold={true}/>
+                <H5 text='+36 30 123 4567' />
             </div>
         </div>
         <div id='copyright'>Copyright © 2022 Scripted Productions. Minden jog fenntartva.</div>

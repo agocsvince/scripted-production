@@ -1,5 +1,7 @@
 p {
-    font-family: 'openSans-Bold';
+    font-family: 'openSans-Regular';
     font-size: 19px;
-    width: 900px;
+    &.bold {
+        font-family: 'openSans-Bold';
+    }
 }
