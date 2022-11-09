@@ -10,7 +10,6 @@
 
 #hero {
     #hero-text {
-        
         position: absolute;
         top: 16rem;
         z-index: 998;
@@ -52,6 +51,16 @@
     }
 }
 
+.swiper {
+    height: 380px;
+
+    .swiper-slide {
+        min-width: 500px !important;
+        height: auto !important;
+        background-position: center center !important;
+        background-size: cover !important;
+    }
+}
 
 
 .mb-2 {
