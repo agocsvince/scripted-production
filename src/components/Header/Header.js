@@ -15,7 +15,7 @@ const Header = () => {
             <A title="Saját fejlesztések" url="/sajat-fejlesztesek" />
             <A title="Csapat" url="/csapat" />
             <A title="Kapcsolat" url="/kapcsolat" />
-            <A title="en|hu" />
+            <A title="en | hu" />
         </div>
     </div>
   )

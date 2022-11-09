@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import Vimeo from '@u-wave/react-vimeo';
-import H1 from '../components/Fonts/H1/H1';
-import H2 from '../components/Fonts/H2/H2';
-import P from '../components/Fonts/P/P';
+import H1 from '../../components/Fonts/H1/H1';
+import H2 from '../../components/Fonts/H2/H2';
+import P from '../../components/Fonts/P/P';
 import './home.scss'
-import logo from '../assets/rtl_logo.svg'
-import project from '../assets/project.png'
-import contact from '../assets/contact.png'
-import Slider from '../components/Slider/Slider';
-import { Fetcher } from '../helpers/api/Fetcher';
-import ProjectCard from '../components/ProjectCard/ProjectCard';
-import ContactCard from '../components/ContactCard/ContactCard';
+import logo from '../../assets/rtl_logo.svg'
+import project from '../../assets/project.png'
+import contact from '../../assets/contact.png'
+import Slider from '../../components/Slider/Slider';
+import { Fetcher } from '../../helpers/api/Fetcher';
+import ProjectCard from '../../components/ProjectCard/ProjectCard';
+import ContactCard from '../../components/ContactCard/ContactCard';
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true)
