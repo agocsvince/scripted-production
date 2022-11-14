@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+  font-family: 'openSans-Regular';
+  background-color: #ffffff;
+}
+
+@font-face {
+  font-family: 'openSans-Regular';
+  src: url('./assets/OpenSans-Regular.ttf');
+}

@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/scripted-production/static/css/main.a0b6c829.css",
+    "main.js": "/scripted-production/static/js/main.d620ca0b.js",
+    "static/js/787.dfa5a9c6.chunk.js": "/scripted-production/static/js/787.dfa5a9c6.chunk.js",
+    "static/media/almoshegy.svg": "/scripted-production/static/media/almoshegy.95dee5d20ede09a217e636b872483264.svg",
+    "static/media/img1.svg": "/scripted-production/static/media/img1.5409808044ac7ae9d6fa8d129cc0336b.svg",
+    "static/media/vadkelet.svg": "/scripted-production/static/media/vadkelet.130a2fb62301c5c0cd07e109d13a07c7.svg",
+    "static/media/miss-casanova.svg": "/scripted-production/static/media/miss-casanova.6bd1daad9137372cb0e537618236c3e0.svg",
+    "static/media/konteo.svg": "/scripted-production/static/media/konteo.471f3975f7fa93f3a1e43a2959fb87a2.svg",
+    "static/media/uvegfal.svg": "/scripted-production/static/media/uvegfal.0ae19eaf8d654ecb2be623a598b71ca0.svg",
+    "static/media/popcorn.svg": "/scripted-production/static/media/popcorn.4e7a4607ef6956a591cc5c48c44ef7b5.svg",
+    "static/media/img4.svg": "/scripted-production/static/media/img4.8c2285ec9db23f983d1bb7fac19c11d2.svg",
+    "static/media/img3.svg": "/scripted-production/static/media/img3.3e8285198a1e0cad219cb42f8565c494.svg",
+    "static/media/img2.svg": "/scripted-production/static/media/img2.96e7ce6aff02281c637252a345f66cf0.svg",
+    "static/media/logo.svg": "/scripted-production/static/media/logo.bc9fd08d1fc7e658188843b419b697dc.svg",
+    "static/media/rtl_logo.svg": "/scripted-production/static/media/rtl_logo.6084b52b044c64952036609db70c02e0.svg",
+    "static/media/project.png": "/scripted-production/static/media/project.3b28f22600c5922ddc6a.png",
+    "static/media/contact.png": "/scripted-production/static/media/contact.cb9fcc167a38d899b665.png",
+    "static/media/OpenSans-ExtraBold.ttf": "/scripted-production/static/media/OpenSans-ExtraBold.df2044929df5b18703f1.ttf",
+    "static/media/OpenSans-Regular.ttf": "/scripted-production/static/media/OpenSans-Regular.77c09223204154ae8d43.ttf",
+    "static/media/OpenSans-Bold.ttf": "/scripted-production/static/media/OpenSans-Bold.fa428cdd2e334e2be904.ttf",
+    "static/media/OpenSans-SemiBold.ttf": "/scripted-production/static/media/OpenSans-SemiBold.2f17aae884058c5a85df.ttf",
+    "index.html": "/scripted-production/index.html",
+    "main.a0b6c829.css.map": "/scripted-production/static/css/main.a0b6c829.css.map",
+    "main.d620ca0b.js.map": "/scripted-production/static/js/main.d620ca0b.js.map",
+    "787.dfa5a9c6.chunk.js.map": "/scripted-production/static/js/787.dfa5a9c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0b6c829.css",
+    "static/js/main.d620ca0b.js"
+  ]
+}

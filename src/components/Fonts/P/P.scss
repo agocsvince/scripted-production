@@ -1,0 +1,13 @@
+p {
+    font-family: 'openSans-Regular';
+    font-size: 19px;
+    &.bold {
+        font-family: 'openSans-Bold';
+    }
+}
+
+// @media screen and (max-width: 1200px) {
+//     p {
+//         font-size: 14px !important;
+//     }
+// }
