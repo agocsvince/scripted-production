@@ -1,5 +1,5 @@
-export const Fetcher = ({data, setData, isLoading, setIsLoading}) => {    
-    fetch('https://beta.haromstudio.hu/scriptedprod/wp-json/wp/v2/posts')
+export const Fetcher = ({url, data, setData, isLoading, setIsLoading}) => {    
+    fetch(url)
     .then(res => res.json())
     .then(json => setData(json))
 

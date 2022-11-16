@@ -6,6 +6,8 @@ import './detailProd.scss'
 import SectionTitle from '../../components/SectionTitle/SectionTitle'
 import P from '../../components/Fonts/P/P'
 import H5 from '../../components/Fonts/H5/H5'
+import VideoSlider from '../../components/VideoSlider/VideoSlider'
+import Button from '../../components/Button/Button'
 
 const DetailProd = () => {
     const { id } = useParams();
@@ -51,8 +53,14 @@ const DetailProd = () => {
                 </ul>
                 <P text='Készült az RTL Klub megbízásából 2021-ben.' />
             </div>
-            <SectionTitle title='videók'/>
-            <SectionTitle title='elismerések'/>
+            <SectionTitle title='videók' classNames="mb-0"/>
+            <VideoSlider classNames='mb-3'/>
+            <Button title='Nézd meg a részeket az RTL Moston!' shouldArrow={true}/>
+            <SectionTitle title='elismerések' classNames='mt-3'/>
+            <div className='mb-3'>
+                <P text='Televíziós Újságírók Díja 2021 - Legjobb napi sorozat' />
+                <P text='Televíziós Újságírók Díja 2021 - Legjobb színésznő (Molnár Piroska)' />
+            </div>
         </div>
     )
 }

@@ -1,0 +1,41 @@
+.team-member {
+    .about {
+        margin: 1rem 4rem;
+        display: flex;
+        justify-content: space-between;
+
+        .description {
+            text-align: left;
+            margin: 0 3rem;
+        }
+
+        p {
+            margin-top: 0;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        
+    }
+
+    .video {
+        margin: 4rem;
+    }
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 2rem 4rem;
+        justify-items: stretch;
+        gap: 1rem;
+
+        img {
+            border-radius: 4px;
+        }
+    }
+    
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}

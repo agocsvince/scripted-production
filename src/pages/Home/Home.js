@@ -12,12 +12,14 @@ import { Fetcher } from '../../helpers/api/Fetcher';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import ContactCard from '../../components/ContactCard/ContactCard';
 
+const URL = 'https://beta.haromstudio.hu/scriptedprod/wp-json/wp/v2/posts';
+
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true)
   const [data, setData] = useState([])
 
   useEffect(() => {
-    Fetcher({isLoading, setIsLoading, data, setData})
+    Fetcher({URL, isLoading, setIsLoading, data, setData})
   
   }, [])
 

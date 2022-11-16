@@ -1,0 +1,16 @@
+.csapat {
+    .image-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        margin: 3rem 2rem 0 2rem;
+
+        &:last-child{
+            margin-bottom: 4rem;
+        }
+    }
+
+    hr {
+        margin: 0 4rem;
+    }
+}

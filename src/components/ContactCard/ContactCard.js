@@ -9,7 +9,6 @@ const ContactCard = ({img, title, desc, url}) => {
         <div className='contact-card'>
             <Link to={url}>
                 <div className='poster' style={{backgroundImage: `url(${img})`}}></div>
-                {/* <img className='poster' src={img} alt='project-card'/> */}
                 <div className='text'>
                     <H4 text={title} />
                     <P text={desc} />

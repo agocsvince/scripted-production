@@ -2,9 +2,11 @@ import React from 'react'
 import H1 from '../Fonts/H1/H1'
 import './sectionTitle.scss'
 
-const SectionTitle = ({title}) => {
+const SectionTitle = ({title, classNames=''}) => {
+  const classes = `section-title ${classNames}`
+
   return (
-    <div className='section-title'>
+    <div className={classes}>
         <H1 text={title}/>
     </div>
   )
